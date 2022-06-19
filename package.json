@@ -2,7 +2,8 @@
 	"name": "rollup-package-boilerplate",
 	"version": "1.0.0",
 	"description": "",
-	"main": "src/App.js",
+	"main": "lib/bundle.cjs.js",
+	"module": "lib/bundle.esm.js",
 	"scripts": {
 		"test": "jest"
 	},
