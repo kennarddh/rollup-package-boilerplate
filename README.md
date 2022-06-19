@@ -1,1 +1,1 @@
-# Rollup Package Boilderplate
+# Rollup Package Boilerplate
