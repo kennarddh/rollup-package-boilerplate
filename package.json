@@ -1,0 +1,25 @@
+{
+	"name": "rollup-package-boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/App.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kennarddh/rollup-package-boilerplate.git"
+	},
+	"keywords": [
+		"rollup",
+		"jest",
+		"package",
+		"boilerplate"
+	],
+	"author": "kennarddh",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kennarddh/rollup-package-boilerplate/issues"
+	},
+	"homepage": "https://github.com/kennarddh/rollup-package-boilerplate#readme"
+}
