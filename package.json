@@ -5,7 +5,16 @@
 	"main": "lib/bundle.cjs.js",
 	"module": "lib/bundle.esm.js",
 	"scripts": {
-		"test": "jest"
+		"test": "jest",
+		"rollup": "rollup -c",
+		"lint": "eslint .",
+		"prettier:fix": "prettier -w \"src/**/*.{js,jsx}\"",
+		"prettier:check": "prettier -c \"src/**/*.{js,jsx}\"",
+		"prepare": "npm run rollup",
+		"prepublishOnly": "npm run lint",
+		"preversion": "npm run lint",
+		"version": "npm run prettier:fix && git add -A src",
+		"postversion": "git push origin main && git push --tags"
 	},
 	"repository": {
 		"type": "git",
